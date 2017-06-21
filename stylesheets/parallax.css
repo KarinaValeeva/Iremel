@@ -1,0 +1,62 @@
+#home {
+
+	background: url("../images/Iremel3.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0;
+	position:relative;
+	min-height:1080px;
+}
+
+#about {
+
+	background: url("../images/Iremel.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0;
+	position:relative;
+	min-height:1080px;
+}
+#blog {
+
+	background: url("../images/maphotel.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: 100% 0;
+	position: relative;
+	min-height:1080px;
+}
+#contact {
+
+	background: url("../images/wristband.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0;
+	position:relative;
+	min-height:1080px;
+}
+
+#next {
+
+	background: url("../images/map2.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:100% 0;
+	position:relative;
+	min-height:1080px;
+}

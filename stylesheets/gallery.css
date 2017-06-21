@@ -1,0 +1,128 @@
+/*.gallery {
+  background: white;
+  width: 40em;
+  left: 45em;
+  padding-top: 150px;
+}
+
+.gallery-cell {
+  width: 100%;
+  height: 400px;
+
+}
+
+.gallery-cell img {
+  display: block;
+  max-height: 400px;
+  max-width: 100%;
+  margin: 0 auto;
+}*/
+.carousel-container {
+  margin-top: 10em;
+  margin-right: -20em;
+}
+
+.thumbBtn i {
+  margin-right: .5em;
+}
+
+.clinic-photo-gallery {
+  margin-bottom: 20px;
+  /* Carousel Control */
+  /* Animation */
+}
+.clinic-photo-gallery .hide {
+  transition: all 1s fade-in;
+}
+.clinic-photo-gallery .carousel-inner {
+  background-color: #FBFBFB;
+  overflow: hidden;
+  width: 565px;
+  height: 375px;
+}
+.clinic-photo-gallery .carousel-inner > div.item:first-child {
+  top: initial !important;
+}
+.clinic-photo-gallery .carousel-inner img {
+  vertical-align: middle;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (max-width: 991px) {
+  .clinic-photo-gallery .carousel-inner {
+    height: 365px;
+  }
+}
+.clinic-photo-gallery .carousel-control {
+  top: 43%;
+}
+.clinic-photo-gallery .control-box, .clinic-photo-gallery a.carousel-control {
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;
+}
+.clinic-photo-gallery .carousel .control-box {
+  opacity: 0;
+}
+.clinic-photo-gallery a.carousel-control.left {
+  left: -4em;
+  background: none;
+  border: 0;
+}
+.clinic-photo-gallery a.carousel-control.right {
+  right: 13em;
+  background: none;
+  border: 0;
+}
+.clinic-photo-gallery .carousel:hover .control-box {
+  opacity: 1;
+}
+.clinic-photo-gallery .carousel:hover a.carousel-control.left {
+  left: 15px;
+}
+.clinic-photo-gallery .carousel:hover a.carousel-control.right {
+  right: 15px;
+}
+.clinic-photo-gallery .item {
+  overflow: hidden;
+  background-color: #000;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+/* Plugin styles */
+.thumbnails-carousel {
+  margin-top: .5em;
+  overflow: hidden;
+}
+.thumbnails-carousel li {
+  cursor: pointer;
+  display: inline-block;
+  padding: .2em;
+}
+.thumbnails-carousel img {
+  max-height: 50px;
+  width: auto;
+}
+.thumbnails-carousel .active-thumbnail {
+  opacity: 0.4;
+}
+.thumbnails-carousel .indicators-fix {
+  bottom: 70px;
+}
+
+.button {
+  margin-right: 8em;
+  height: 40px;
+}
+
+.button2 {
+  margin-left: 8em;
+  height: 40px;
+}
