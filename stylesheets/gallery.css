@@ -19,15 +19,6 @@
 }
 
 
-.button {
-  margin-right: 8em;
-  height: 40px;
-}
-
-.button2 {
-  margin-left: 8em;
-  height: 40px;
-}
 .flickity-prev-next-button {
   width: 100px;
   height: 100px;
@@ -38,12 +29,15 @@
 }
 /* arrow color */
 .flickity-prev-next-button .arrow {
-  fill: white;
+  fill: black;
 }
 .flickity-prev-next-button.no-svg {
-  color: white;
+  color: black;
 }
 /* hide disabled button */
 .flickity-prev-next-button:disabled {
   display: none;
 }
+
+.flickity-prev-next-button.previous { left: -10%; top: 30%}
+.flickity-prev-next-button.next { right: 10%; top: 30% }
