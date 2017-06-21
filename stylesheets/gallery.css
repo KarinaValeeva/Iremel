@@ -29,10 +29,8 @@
   height: 40px;
 }
 .flickity-prev-next-button {
-  width: 30px;
-  height: 30px;
-  background-image: url(../images/left.png);
-  border-radius: 5px;
+  width: 100px;
+  height: 100px;
   background: transparent;
 }
 .flickity-prev-next-button:hover {
@@ -40,16 +38,12 @@
 }
 /* arrow color */
 .flickity-prev-next-button .arrow {
-  fill: transparent;
+  fill: white;
 }
 .flickity-prev-next-button.no-svg {
   color: white;
 }
-/* position outside */
-.flickity-prev-next-button.previous {
-  left: -70px;
-  top: 20%;
-}
-.flickity-prev-next-button.next {
-  right: -70px;
+/* hide disabled button */
+.flickity-prev-next-button:disabled {
+  display: none;
 }
