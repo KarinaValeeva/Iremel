@@ -28,3 +28,12 @@
   margin-left: 8em;
   height: 40px;
 }
+
+.flickity-page-dots {
+  opacity: 0;
+}
+
+.flickity-prev-next-button {
+  background-image: url(../images/left.png);
+  height: 20px;
+}
