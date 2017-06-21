@@ -20,8 +20,8 @@
 
 
 .flickity-prev-next-button {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   background: transparent;
 }
 .flickity-prev-next-button:hover {
@@ -39,5 +39,5 @@
   display: none;
 }
 
-.flickity-prev-next-button.previous { left: -10%; top: 30%}
-.flickity-prev-next-button.next { right: 10%; top: 30% }
+.flickity-prev-next-button.previous { left: -15%; top: 50%}
+.flickity-prev-next-button.next { right: 20%; top: 50% }
