@@ -1,0 +1,49 @@
+body {
+
+  background: repeat top center;
+}
+
+
+@-webkit-keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+
+.video {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+
+video {
+  width: 100%;
+  margin-top: 0;
+  /*opacity: 0.6;*/
+}
+
+
+#mockup10 {
+width: 20%;
+height: 31%;
+margin-left: 39%;
+margin-top: 18%;
+background-repeat: no-repeat;
+position: absolute;
+z-index: 2;
+}

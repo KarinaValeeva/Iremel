@@ -1,0 +1,71 @@
+nav {
+  margin-top: 2em;
+  right: 2em;
+  position: absolute;
+  z-index: 4;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+.menu-link {
+  text-decoration: none;
+  margin-right: 2em;
+  font-size: 1em;
+  color: black;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.menu-link:hover {
+  color: #ff5500;
+  cursor: pointer;
+}
+
+
+.menu-link1 {
+  text-decoration: none;
+  margin-right: 2em;
+  font-size: 1em;
+  color: black;
+  cursor: pointer;
+}
+.menu-link1:hover {
+  color: inherit;
+  cursor: pointer;
+}
+
+.menu-link2 {
+  text-decoration: none;
+  margin-right: 2em;
+  font-size: 1em;
+  color: #ff5500;
+  cursor: pointer;
+}
+
+.menu-link3  {
+  text-decoration: none;
+  margin-top: 2em;
+  left: 2em;
+  position: absolute;
+  z-index: 4;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+
+}
+
+#mockup11 {
+width: 80px;
+height: 25px;
+left: 1.5em;
+top: 4em;
+background-repeat: no-repeat;
+position: fixed;
+z-index: 2;
+
+
+}
