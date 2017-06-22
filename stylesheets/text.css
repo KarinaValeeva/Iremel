@@ -232,8 +232,7 @@ z-index: 1;
   height: 500px;
   right: 10px;
   background-image: url("../images/bear.png");
-  background-size: 15em;
-
+  background-size: 17em;
   background-repeat: no-repeat;
   animation: picanimation1 ease 1.2s;
   animation-iteration-count: infinite;

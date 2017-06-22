@@ -61,11 +61,37 @@ nav {
 #mockup11 {
 width: 80px;
 height: 25px;
-left: 1.5em;
+margin-left: 1.5em;
 top: 4em;
 background-repeat: no-repeat;
 position: fixed;
 z-index: 2;
 
+}
 
+#mockup12 {
+width: 30px;
+height: 30px;
+margin-left: 49%;
+bottom: 4em;
+background-repeat: no-repeat;
+position: absolute;
+z-index: 2;
+animation: bouncey 1.6s linear infinite;
+
+}
+
+@keyframes bouncey {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
