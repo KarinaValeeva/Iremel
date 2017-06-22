@@ -39,5 +39,5 @@
   display: none;
 }
 
-.flickity-prev-next-button.previous { left: -15%; top: 50%}
-.flickity-prev-next-button.next { right: -15%; top: 50% }
+.flickity-prev-next-button.previous { left: -15%; top: 60%;}
+.flickity-prev-next-button.next { right: -10%; top: 60%;}
