@@ -5,41 +5,35 @@
   <title>Iremel</title>
 
 
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel='stylesheet prefetch' href='https://unpkg.com/flickity@1/dist/flickity.css'>
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'> -->
 
   <link rel="stylesheet" href="stylesheets/style.css">
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
   <script type="text/javascript">
-jQuery(document).ready(function(){
-	$objWindow = $(window);
-	$('div[data-type="background"]').each(function(){
-		var $bgObj = $(this);
-		$(window).scroll(function() {
-			var yPos = -($objWindow.scrollTop() / $bgObj.data('speed'));
+    jQuery(document).ready(function(){
+    	$objWindow = $(window);
+    	$('div[data-type="background"]').each(function(){
+    		var $bgObj = $(this);
+    		$(window).scroll(function() {
+    			var yPos = -($objWindow.scrollTop() / $bgObj.data('speed'));
 
-			var coords = '100% '+ yPos + 'px';
-            // Animate the background
-			 $bgObj.css({ backgroundPosition: coords });
+    			var coords = '100% '+ yPos + 'px';
+                // Animate the background
+    			 $bgObj.css({ backgroundPosition: coords });
+        });
+      });
+    });
+  </script>
 
-		});
-
-	});
-});
-</script>
-
-<script src="//use.typekit.net/kkm1fdd.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
+  <script src="//use.typekit.net/kkm1fdd.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
 
 </head>
+
 <body>
-
-
 
   <script type="text/javascript">
   (function(w, d, n, s, t) {
@@ -61,14 +55,14 @@ jQuery(document).ready(function(){
               favicon: true,
               no_sitelinks: false
           });
-      });
-      t = d.getElementsByTagName("script")[0];
-      s = d.createElement("script");
-      s.src = "//an.yandex.ru/system/context.js";
-      s.type = "text/javascript";
-      s.async = true;
-      t.parentNode.insertBefore(s, t);
-  })(window, document, "yandex_context_callbacks");
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.src = "//an.yandex.ru/system/context.js";
+        s.type = "text/javascript";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(window, document, "yandex_context_callbacks");
   </script>
 
   <section class="landingWrapper">
@@ -82,136 +76,109 @@ jQuery(document).ready(function(){
         <a href="#" class="menu-link2 active">главная</a>
         <a href="#house" class="menu-link">проживание</a>
         <a href="#" class="menu-link">контакты</a>
-
-        <!-- <canvas id="underline"></canvas> -->
       </nav>
 
+      <div class="video">
+      	<video id="InformationVideo" class="information__video information__video--visible" preload="auto" autobuffer="" autoload="" autoplay="" loop="">
+      		<source src="Iremel.mp4" type="video/mp4">
+      	</video>
+      </div>
 
-    <div class="video">
-	<video id="InformationVideo" class="information__video information__video--visible" preload="auto" autobuffer="" autoload="" autoplay="" loop="">
-
-		<source src="1.mp4" type="video/mp4">
-		<!-- <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/130891/astrochimp.webm" type="video/webm">
-		<source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/130891/astrochimp.ogg" type="video/ogg"> -->
-	</video>
-
-</div>
-
-  <img id="mockup10" src="images/Logo3.png">
-  <a href="#welcome"><img id="mockup12" src="images/next1.png"></a>
+      <img id="mockup10" src="images/Logo3.png">
+      <a href="#welcome"><img id="mockup12" src="images/next1.png"></a>
 
     </section>
   </section>
 
 
-      <section class="landingWrapper">
-        <section class="mainSection left">
-          <section id="welcome">
-            <h2>ДОБРО ПОЖАЛОВАТЬ!
-            </h2>
-
-            <p>Гора Иремель символизирует красоту и величие Южного Урала. Иремель состоит из двухвершинного массива - Малого и Большого Иремеля. Большой Иремель является второй по высоте вершиной Южного Урала. Самая высокая точка достигает 1586 м над уровнем моря. Путешествуя в окрестностях Иремеля, можно познакомиться с его богатым природным миром: встретить куниц, зайцев, лисиц, лосей, бурого медведя и даже рысь!
-            </p>
-
-            <figure></figure>
-          </section>
-
-            <figure id="bear"></figure>
-        </section>
+  <section class="landingWrapper">
+    <section class="mainSection left">
+      <section id="welcome">
+        <h2>ДОБРО ПОЖАЛОВАТЬ!</h2>
+        <p>Гора Иремель символизирует красоту и величие Южного Урала. Иремель состоит из двухвершинного массива - Малого и Большого Иремеля. Большой Иремель является второй по высоте вершиной Южного Урала. Самая высокая точка достигает 1586 м над уровнем моря. Путешествуя в окрестностях Иремеля, можно познакомиться с его богатым природным миром: встретить куниц, зайцев, лисиц, лосей, бурого медведя и даже рысь!
+        </p>
+        <figure></figure>
       </section>
+        <figure id="bear"></figure>
+    </section>
+  </section>
 
-        <div id="home" class="bg_parralax" data-type="background" data-speed="10"></div>
-        <div id="about" class="bg_parralax" data-type="background" data-speed="20"></div>
-        <!-- <div id="blog" class="bg_parralax" data-type="background" data-speed="40"></div>
-        <div id="contact" class="bg_parralax" data-type="background" data-speed="80"></div> -->
+  <div id="home" class="bg_parralax" data-type="background" data-speed="10"></div>
+  <div id="about" class="bg_parralax" data-type="background" data-speed="20"></div>
 
-      <section class="landingWrapper">
-        <section class="mainSection left">
-          <section id="house">
-            <h2>Проживание
-            </h2>
-
-            <p> Вы можете остановиться в Большом или Малом <br>
+  <section class="landingWrapper">
+    <section class="mainSection left">
+      <section id="house">
+        <h2>Проживание</h2>
+        <p> Вы можете остановиться в Большом или Малом <br>
                 гостевых домах, домах-дачах. <br>
                 Вместимость Большого дома: 18 постояльцев <br>
                 Малого дома: 19 постояльцев <br>
                 Дачь: 7 постояльцев.
-            </p>
-          </section>
+        </p>
+      </section>
 
-          <div class="gallery">
-            <div class="gallery-cell">
-              <img src="images/14.JPG">
-            </div>
-            <div class="gallery-cell">
-              <img src="images/15.JPG">
-            </div>
-            <div class="gallery-cell">
-              <img src="images/16.JPG">
-            </div>
-            <div class="gallery-cell">
-              <img src="images/17.jpg">
-            </div>
-            <div class="gallery-cell">
-              <img src="images/7.jpg">
-            </div>
-            <div class="gallery-cell">
-              <img src="images/8.jpg">
-            </div>
-            <div class="gallery-cell">
-              <img src="images/11.jpg">
-            </div>
-            <div class="gallery-cell">
-              <img src="images/12.jpg">
-            </div>
-          </div>
+      <div class="gallery">
+        <div class="gallery-cell">
+          <img src="images/14.JPG">
+        </div>
+        <div class="gallery-cell">
+          <img src="images/15.JPG">
+        </div>
+        <div class="gallery-cell">
+          <img src="images/16.JPG">
+        </div>
+        <div class="gallery-cell">
+          <img src="images/17.jpg">
+        </div>
+        <div class="gallery-cell">
+          <img src="images/7.jpg">
+        </div>
+        <div class="gallery-cell">
+          <img src="images/8.jpg">
+        </div>
+        <div class="gallery-cell">
+          <img src="images/11.jpg">
+        </div>
+        <div class="gallery-cell">
+          <img src="images/12.jpg">
+        </div>
+      </div>
 
-          </section>
-        </section>
+    </section>
+  </section>
 
+  <div id="blog" class="bg_parralax" data-type="background" data-speed="60"></div>
 
-        <div id="blog" class="bg_parralax" data-type="background" data-speed="60"></div>
-
-        <section class="landingWrapper">
-
-          <section class="mainSection center">
-            <section id="servises">
-              <h2>Услуги<br>
-                турбазы
-              </h2>
-
-              <!-- <p>Вы можете обучаться самостоятельно по исходному коду проекта,<br>
-                 выложенному на GitHub, или записаться на курс “Основы<br>
-                 веб-вёрстки с Захаром Днём” на Hack Exchange.
-              </p> -->
-                <p>Домашняя кухня<br>
-                  Экскурсии<br>
-                  Пешие маршруты <br>
-                  Сплавы <br>
-                  Уютные номера и <br>
-                  заботливый персонал
-                </p>
-
-            </section>
-
-            <figure id="cuisine"></figure>
-            <figure id="shaman"></figure>
-            <figure id="walk"></figure>
-            <figure id="rafting"></figure>
-            <figure id="cleaner"></figure>
-
-          </section>
-
-        </section>
-
+  <section class="landingWrapper">
+    <section class="mainSection center">
+      <section id="servises">
+        <h2>Услуги<br>
+            турбазы
+        </h2>
+        <p>Домашняя кухня<br>
+           Экскурсии<br>
+           Пешие маршруты <br>
+           Сплавы <br>
+           Уютные номера и <br>
+           заботливый персонал
+        </p>
+      </section>
+        <figure id="cuisine"></figure>
+        <figure id="shaman"></figure>
+        <figure id="walk"></figure>
+        <figure id="rafting"></figure>
+        <figure id="cleaner"></figure>
+      </section>
+    </section>
+  </section>
 
       <!-- <div id="contact" class="bg_parralax" data-type="background" data-speed="120"></div>
       <div id="next" class="bg_parralax" data-type="background" data-speed="160"></div> -->
 
-
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-      <script src='https://unpkg.com/flickity@1/dist/flickity.pkgd.js'></script>
-      <script src="js/gallery.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src='https://unpkg.com/flickity@1/dist/flickity.pkgd.js'></script>
+  <script src="js/gallery.js"></script>
 
 </body>
 </html>

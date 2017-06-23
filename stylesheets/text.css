@@ -81,13 +81,6 @@ body.landing * {
   width: 580px;
 }
 
-
-/*.mainSection.right {
-  margin-top: 60px;
-  height: 740px;
-  background-color: rgb(122, 139, 139);
-}*/
-
 .mainSection.left section {
   left: 160px;
 }
@@ -95,13 +88,6 @@ body.landing * {
 .mainSection.right section {
   right: 60px;
 }
-
-/*.mainSection.right section p,
-.mainSection.right section h2,
-.mainSection.center section p,
-.mainSection.center section h2 {
-  color: black;
-}*/
 
 .mainSection section figure {
   width: 210px;
@@ -176,17 +162,6 @@ body.landing * {
    flex: 0 0 auto;
 
 }
-
-
-/*.containerfor2 {
-  position: relative;
-  display: flex;
-  overflow: hidden;
-  align-items: flex-end;
-	display: flex;
-	justify-content: center;
-}*/
-
 
 #mockup1 {
   top: 233px;
