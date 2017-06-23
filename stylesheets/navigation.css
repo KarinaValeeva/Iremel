@@ -62,7 +62,7 @@ nav {
   margin-left: 1.5em;
   top: 4em;
   background-repeat: no-repeat;
-  position: fixed;
+  position: absolute;
   z-index: 2;
 
 }

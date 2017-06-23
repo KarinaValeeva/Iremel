@@ -4,11 +4,6 @@
   background-color: #77ffe1;
 }
 
-body.landing.bg {
-  /*background-image: url(../images/mockups/1440.png);*/
-  background-repeat: no-repeat;
-  background-position: top center;
-}
 
 body.landing * {
   transition: all .3s ease;
@@ -40,7 +35,8 @@ body.landing * {
 
 .ground {
   width: 100%;
-  background-color: rgb(122, 139, 139);
+  background-color: #ff5500;
+  color: white;
 }
 
 .mainSection h2 {
@@ -129,6 +125,7 @@ body.landing * {
   font-size: 16px;
   color: white;
 }
+
 
 .mockup {
   position: absolute;
